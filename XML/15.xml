@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<salle id="15">
+  <rangee id="28">
+    <siege type="Normal">70</siege>
+    <siege type="Normal">71</siege>
+  </rangee>
+  <rangee id="29">
+    <siege type="Normal">64</siege>
+    <siege type="Normal">65</siege>
+    <siege type="Normal">66</siege>
+    <siege type="Normal">67</siege>
+  </rangee>
+  <rangee id="30">
+    <siege type="Normal">68</siege>
+    <siege type="Normal">69</siege>
+  </rangee>
+</salle>

@@ -1,0 +1,8 @@
+DELIMITER |
+CREATE PROCEDURE insert_seance_avec_prix(IN date_seance DATETIME, IN id_film INT, IN id_salle INT, IN id_prix INT)
+BEGIN
+	DECLARE LID INT;
+	INSERT INTO Seance (libelle, dateSeance, idFilm, idSalle) VALUES ('', date_seance, id_film, id_salle);
+	SET LID = LAST_INSERT_ID();
+	INSERT INTO propose (idSeance, idTarif) VALUES (LID, id_prix);
+END;
